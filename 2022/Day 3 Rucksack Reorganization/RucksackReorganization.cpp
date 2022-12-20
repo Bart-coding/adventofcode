@@ -7,7 +7,6 @@ int main()
 	int sumOfPriorities = 0;
 	while(input >> line)
 	{
-		
 		std::unordered_set<char> firstCompartmentLetters;
 		for (int i = 0; i < line.length()/2; ++i)
 			firstCompartmentLetters.insert(line[i]);
